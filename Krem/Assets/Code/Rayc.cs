@@ -17,7 +17,7 @@ public class Rayc : MonoBehaviour
                 if(rig != null)
                 {
                    // rig.isKinematic = false;
-                    rig.AddForceAtPosition(ray.direction * 50.0f, hit.point, ForceMode.VelocityChange);
+                    rig.AddForceAtPosition(ray.direction * 100.0f, hit.point, ForceMode.VelocityChange);
                 }
             }
         }

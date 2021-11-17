@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 1128701431052309053}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 8010524140533306200}
   - {fileID: 3362227469249025621}
@@ -48,6 +48,8 @@ GameObject:
   - component: {fileID: 7244722363095854889}
   - component: {fileID: 4080548008799374697}
   - component: {fileID: 7976812148305686522}
+  - component: {fileID: 12810322}
+  - component: {fileID: 1494428548}
   m_Layer: 0
   m_Name: Cube_cell.003
   m_TagString: Untagged
@@ -127,9 +129,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3064452463158810599}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Mass: 5
+  m_Drag: 10
+  m_AngularDrag: 5
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -164,6 +166,36 @@ MonoBehaviour:
   isdead: 0
   timeRemaining: 100
   rbBlock: {fileID: 0}
+--- !u!138 &12810322
+FixedJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3064452463158810599}
+  m_ConnectedBody: {fileID: 0}
+  m_ConnectedArticulationBody: {fileID: 0}
+  m_BreakForce: 0.1
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 0.5
+  m_ConnectedMassScale: 0.5
+--- !u!138 &1494428548
+FixedJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3064452463158810599}
+  m_ConnectedBody: {fileID: 0}
+  m_ConnectedArticulationBody: {fileID: 0}
+  m_BreakForce: 0.1
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 0.5
+  m_ConnectedMassScale: 0.5
 --- !u!1 &3248409420105368636
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,6 +210,8 @@ GameObject:
   - component: {fileID: 8930687631222138439}
   - component: {fileID: 440293102478994232}
   - component: {fileID: 590737782902177277}
+  - component: {fileID: 1991853695}
+  - component: {fileID: 468541277}
   m_Layer: 0
   m_Name: Cube_cell.006
   m_TagString: Untagged
@@ -257,9 +291,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3248409420105368636}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Mass: 5
+  m_Drag: 10
+  m_AngularDrag: 5
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -294,6 +328,36 @@ MonoBehaviour:
   isdead: 0
   timeRemaining: 100
   rbBlock: {fileID: 0}
+--- !u!138 &1991853695
+FixedJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3248409420105368636}
+  m_ConnectedBody: {fileID: 0}
+  m_ConnectedArticulationBody: {fileID: 0}
+  m_BreakForce: 0.1
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 0.5
+  m_ConnectedMassScale: 0.5
+--- !u!138 &468541277
+FixedJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3248409420105368636}
+  m_ConnectedBody: {fileID: 0}
+  m_ConnectedArticulationBody: {fileID: 0}
+  m_BreakForce: 0.1
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 0.5
+  m_ConnectedMassScale: 0.5
 --- !u!1 &7289207822399852268
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,6 +372,8 @@ GameObject:
   - component: {fileID: 6832817320326161071}
   - component: {fileID: 3802492467795939184}
   - component: {fileID: 171109228267029521}
+  - component: {fileID: 921411456}
+  - component: {fileID: 457424642}
   m_Layer: 0
   m_Name: Cube_cell.007
   m_TagString: Untagged
@@ -387,9 +453,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7289207822399852268}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Mass: 5
+  m_Drag: 10
+  m_AngularDrag: 5
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -424,6 +490,36 @@ MonoBehaviour:
   isdead: 0
   timeRemaining: 100
   rbBlock: {fileID: 0}
+--- !u!138 &921411456
+FixedJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7289207822399852268}
+  m_ConnectedBody: {fileID: 0}
+  m_ConnectedArticulationBody: {fileID: 0}
+  m_BreakForce: 0.1
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 0.5
+  m_ConnectedMassScale: 0.5
+--- !u!138 &457424642
+FixedJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7289207822399852268}
+  m_ConnectedBody: {fileID: 0}
+  m_ConnectedArticulationBody: {fileID: 0}
+  m_BreakForce: 0.1
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 0.5
+  m_ConnectedMassScale: 0.5
 --- !u!1 &8909264547748134326
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,6 +534,8 @@ GameObject:
   - component: {fileID: 5313091457595734494}
   - component: {fileID: 8782496684288284111}
   - component: {fileID: 8216195289167307906}
+  - component: {fileID: 1529611415}
+  - component: {fileID: 995187706}
   m_Layer: 0
   m_Name: Cube_cell.002
   m_TagString: Untagged
@@ -517,9 +615,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8909264547748134326}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Mass: 5
+  m_Drag: 10
+  m_AngularDrag: 5
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -554,3 +652,33 @@ MonoBehaviour:
   isdead: 0
   timeRemaining: 100
   rbBlock: {fileID: 0}
+--- !u!138 &1529611415
+FixedJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8909264547748134326}
+  m_ConnectedBody: {fileID: 0}
+  m_ConnectedArticulationBody: {fileID: 0}
+  m_BreakForce: 0.1
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 0.5
+  m_ConnectedMassScale: 0.5
+--- !u!138 &995187706
+FixedJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8909264547748134326}
+  m_ConnectedBody: {fileID: 0}
+  m_ConnectedArticulationBody: {fileID: 0}
+  m_BreakForce: 0.1
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 0.5
+  m_ConnectedMassScale: 0.5
