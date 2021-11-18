@@ -13,13 +13,14 @@ GameObject:
   - component: {fileID: 3108342754848462921}
   - component: {fileID: 3232079092308070037}
   - component: {fileID: 3473670353867055984}
+  - component: {fileID: 9198281134336270684}
   m_Layer: 0
   m_Name: Cube_cell.005
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &809959347850887438
 Transform:
   m_ObjectHideFlags: 0
@@ -114,6 +115,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &9198281134336270684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605109619556543985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40916df8b6064e43822643048b05aaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1029563465163258954
 GameObject:
   m_ObjectHideFlags: 0
@@ -127,13 +140,14 @@ GameObject:
   - component: {fileID: 356756530407934273}
   - component: {fileID: 6202096765229620574}
   - component: {fileID: 7111798897456023783}
+  - component: {fileID: 9111906940367393438}
   m_Layer: 0
   m_Name: Cube_cell.002
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1929430841686577828
 Transform:
   m_ObjectHideFlags: 0
@@ -228,6 +242,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &9111906940367393438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029563465163258954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40916df8b6064e43822643048b05aaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1208611246184648464
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,13 +267,14 @@ GameObject:
   - component: {fileID: 7397968023575781971}
   - component: {fileID: 7189312431875661901}
   - component: {fileID: 3142773595092400882}
+  - component: {fileID: 8190346346704546675}
   m_Layer: 0
   m_Name: Cube_cell.007
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8697020969902236345
 Transform:
   m_ObjectHideFlags: 0
@@ -342,6 +369,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8190346346704546675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208611246184648464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40916df8b6064e43822643048b05aaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2371596360831851972
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,13 +394,14 @@ GameObject:
   - component: {fileID: 5739905900600994232}
   - component: {fileID: 8795133096003928506}
   - component: {fileID: 4224801086498380102}
+  - component: {fileID: 2520171412807752494}
   m_Layer: 0
   m_Name: Cube_cell
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8094843083834641117
 Transform:
   m_ObjectHideFlags: 0
@@ -456,6 +496,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2520171412807752494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2371596360831851972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40916df8b6064e43822643048b05aaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6020423577704043762
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,13 +521,14 @@ GameObject:
   - component: {fileID: 2782347651914351037}
   - component: {fileID: 7847347797227658025}
   - component: {fileID: 1354022276725442625}
+  - component: {fileID: 2065473297624379180}
   m_Layer: 0
   m_Name: Cube_cell.004
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &938640105690765927
 Transform:
   m_ObjectHideFlags: 0
@@ -570,6 +623,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2065473297624379180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6020423577704043762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40916df8b6064e43822643048b05aaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6411161365396669888
 GameObject:
   m_ObjectHideFlags: 0
@@ -583,13 +648,14 @@ GameObject:
   - component: {fileID: 4324284870041282681}
   - component: {fileID: 4006025875323809903}
   - component: {fileID: 7428736799981688304}
+  - component: {fileID: 5216473425313921310}
   m_Layer: 0
   m_Name: Cube_cell.006
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4146816920534606541
 Transform:
   m_ObjectHideFlags: 0
@@ -684,6 +750,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5216473425313921310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6411161365396669888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40916df8b6064e43822643048b05aaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6875502549678577179
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,13 +775,14 @@ GameObject:
   - component: {fileID: 7975354660165959781}
   - component: {fileID: 6589388370169571574}
   - component: {fileID: 2726112606258982047}
+  - component: {fileID: 6237361110199093999}
   m_Layer: 0
   m_Name: Cube_cell.003
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6576564367157008297
 Transform:
   m_ObjectHideFlags: 0
@@ -798,6 +877,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6237361110199093999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6875502549678577179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40916df8b6064e43822643048b05aaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8266576778689701807
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,13 +902,14 @@ GameObject:
   - component: {fileID: 3781293744770337747}
   - component: {fileID: 8703329809116329903}
   - component: {fileID: 5419100296022315962}
+  - component: {fileID: 4239975585255232101}
   m_Layer: 0
   m_Name: Cube_cell.001
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8283729988948789019
 Transform:
   m_ObjectHideFlags: 0
@@ -912,6 +1004,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4239975585255232101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8266576778689701807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40916df8b6064e43822643048b05aaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8810269694752560065
 GameObject:
   m_ObjectHideFlags: 0

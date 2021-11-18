@@ -3,7 +3,7 @@ using UnityEngine;
 public class VisibleBlockController : MonoBehaviour
 {
     [SerializeField] private GameObject _bigBlock;
-    [SerializeField] private GameObject[] _piecesBlock;
+    [SerializeField] public GameObject[] _piecesBlock;
 
     public VisibleBlockController(GameObject bigBlock, GameObject[] piecesBlock)
     {
