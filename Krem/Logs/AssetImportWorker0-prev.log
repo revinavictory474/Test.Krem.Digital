@@ -9,17 +9,17 @@ E:\Revina\2021.1.5f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker1
+AssetImportWorker0
 -projectPath
 D:/UnityEducation/Test.Krem.Digital/Krem
 -logFile
-Logs/AssetImportWorker1.log
+Logs/AssetImportWorker0.log
 -srvPort
-65152
+51849
 Successfully changed project path to: D:/UnityEducation/Test.Krem.Digital/Krem
 D:/UnityEducation/Test.Krem.Digital/Krem
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 72.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 516.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.5f1 (3737af19df53)
 [Subsystems] Discovering subsystems at path E:/Revina/2021.1.5f1/Editor/Data/Resources/UnitySubsystems
@@ -35,5 +35,5 @@ Initialize mono
 Mono path[0] = 'E:/Revina/2021.1.5f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Revina/2021.1.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Revina/2021.1.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
 Begin MonoManager ReloadAssembly
