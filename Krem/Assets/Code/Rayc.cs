@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Rayc : MonoBehaviour
 {
-    public VisibleBlockController[] visibleController;
+    [SerializeField] private VisibleBlockController[] visibleController;
+    [SerializeField] private GameObject _explosion;
 
     private void Update()
     {
@@ -20,6 +21,7 @@ public class Rayc : MonoBehaviour
                     if (visibleController[i].transform.position == hit.transform.position)
                     {
                         visibleController[i].SendMessage("SetVisiblePiecesBlock");
+                        CreateExplosion(hit.transform);
                     }
                 }
 
@@ -27,9 +29,14 @@ public class Rayc : MonoBehaviour
                 if (rig != null)
                 {
                     rig.AddForceAtPosition(ray.direction * 100.0f, hit.point, ForceMode.VelocityChange);
+                    CreateExplosion(rig.transform);
                 }
-
             }
         }
+    }
+
+    private void CreateExplosion(Transform transform)
+    {
+        Instantiate(_explosion, transform.transform.position, _explosion.transform.rotation);
     }
 }
