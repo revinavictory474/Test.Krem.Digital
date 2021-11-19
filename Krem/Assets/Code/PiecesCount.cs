@@ -1,18 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class PiecesCount : MonoBehaviour
+namespace DestroyBuilding
 {
-    private Rigidbody rb;
-
-    public PiecesCount(Rigidbody rigidbody)
+    internal class PiecesCount : MonoBehaviour
     {
-        rb = rigidbody;
-    }
-
-    private void Start()
-    {
-        gameObject.SetActive(false);
+        private void Start()
+        {
+            gameObject.SetActive(false);
+        }
     }
 }

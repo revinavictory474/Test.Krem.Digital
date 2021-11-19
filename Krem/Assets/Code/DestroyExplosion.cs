@@ -1,18 +1,28 @@
 using UnityEngine;
 
-public class DestroyExplosion : MonoBehaviour
+namespace DestroyBuilding
 {
-	private float _timeToDestroy = 5.0f;
-
-    void Update()
+	internal class DestroyExplosion : MonoBehaviour
 	{
-		Destroy();
+        #region Fields
+        private const float TIMEDESTROY = 3.0f;
+
+		private float _timeToDestroy = TIMEDESTROY;
+        #endregion
+
+        void Update()
+		{
+			Destroy();
+		}
+
+		/// <summary>
+		/// Удалить эффект взрыва со сцены по истечении таймера.
+		/// </summary>
+		private void Destroy()
+		{
+			_timeToDestroy -= Time.deltaTime;
+
+			if (_timeToDestroy <= 0) Destroy(gameObject);
+		}
 	}
-
-	private void Destroy()
-    {
-		_timeToDestroy -= Time.deltaTime;
-
-		if (_timeToDestroy <= 0) Destroy(gameObject);
-    }
 }

@@ -1,23 +1,25 @@
 using UnityEngine;
 
-public class VisibleBlockController : MonoBehaviour
+namespace DestroyBuilding
 {
-    [SerializeField] private GameObject _bigBlock;
-    [SerializeField] public GameObject[] _piecesBlock;
-
-    public VisibleBlockController(GameObject bigBlock, GameObject[] piecesBlock)
+    internal class VisibleBlockController : MonoBehaviour
     {
-        _bigBlock = bigBlock;
-        _piecesBlock = piecesBlock;
-    }
+        #region Fields
+        [SerializeField] private GameObject _bigBlock;
+        [SerializeField] private GameObject[] _piecesBlock;
+        #endregion
 
-    public void SetVisiblePiecesBlock()
-    {
-        _bigBlock.SetActive(false);
-        
-        for(int i = 0; i < _piecesBlock.Length; i++)
+        /// <summary>
+        /// Меняем целый блок на разбитый.
+        /// </summary>
+        internal void SetVisiblePiecesBlock()
         {
-            _piecesBlock[i].SetActive(true);
+            _bigBlock.SetActive(false);
+
+            for (int i = 0; i < _piecesBlock.Length; i++)
+            {
+                _piecesBlock[i].SetActive(true);
+            }
         }
     }
 }
